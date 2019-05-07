@@ -1,3 +1,5 @@
+package week1;
+
 public class PowerofTwo {
     public static void main(String[] args){
         System.out.println(Math.log(536870912)/Math.log(2));

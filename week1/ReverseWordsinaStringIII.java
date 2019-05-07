@@ -1,3 +1,5 @@
+package week1;
+
 public class ReverseWordsinaStringIII {
     public static void main(String[] args){
         System.out.println(reverseWords("This is a test"));

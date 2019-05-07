@@ -1,3 +1,5 @@
+package week1;
+
 public class DetectCapital {
     public static void main(String[] args){
         System.out.println(detectCapitalUse("oOO"));

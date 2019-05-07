@@ -1,3 +1,5 @@
+package week1;
+
 public class TransposeMatrix {
 
     public static void main (String[] args){

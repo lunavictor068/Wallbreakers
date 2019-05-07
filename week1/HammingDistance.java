@@ -1,3 +1,5 @@
+package week1;
+
 public class HammingDistance {
     public static void main (String[] args){
         System.out.println(hammingDistance(1, 4));

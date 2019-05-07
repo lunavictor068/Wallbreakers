@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +14,7 @@ public class FizzBuzz {
         List<String> fizzbuzz = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
             if (i % 15 == 0){
-                fizzbuzz.add("FizzBuzz");
+                fizzbuzz.add("week1.FizzBuzz");
             }
             else if (i % 3 == 0){
                 fizzbuzz.add("Fizz");

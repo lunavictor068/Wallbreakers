@@ -1,3 +1,5 @@
+package week1;
+
 public class ValidPalindrome {
     public static void main(String[] args){
         System.out.println(isPalindrome("HelloolleH"));

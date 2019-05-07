@@ -1,3 +1,5 @@
+package week1;
+
 public class SortArrayByParity{
     public static void main(String[] args){
         int[] test1 = new int[]{3,1,2,4};

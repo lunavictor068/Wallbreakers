@@ -1,3 +1,5 @@
+package week1;
+
 public class LongestCommonPrefix {
     public static void main(String[] args){
         String[] strings = new String[] {"a"};
