@@ -10,10 +10,11 @@ public class GroupsofSpecialEquivalentStrings {
         String[] words = new String[]{"abc","acb","bac","bca","cab","cba"};
         for (String word:words)
             System.out.println(getStringKey(word));
+        System.out.println(numSpecialEquivGroups(words));
 
     }
 
-    public int numSpecialEquivGroups(String[] A) {
+    public static int numSpecialEquivGroups(String[] A) {
         HashSet<String> groupKeys = new HashSet<>();
         for (String word:A)
             groupKeys.add(getStringKey(word));
@@ -39,7 +40,7 @@ public class GroupsofSpecialEquivalentStrings {
             zeroBuilder.append(c);
         }
         StringBuilder oneBuilder = new StringBuilder();
-        for (char c:zeroStart){
+        for (char c:oneStart){
             oneBuilder.append(c);
         }
         return zeroBuilder.toString() + "," + oneBuilder.toString();
